@@ -11,6 +11,7 @@ import port10 from '../img/portImages/Rn_clothes_app.jpg';
 import port11 from '../img/portImages/BauleStore.png';
 import port12 from '../img/portImages/mern-project-podroze.png';
 import port13 from '../img/portImages/weather.png';
+import port14 from '../img/portImages/first_portfolio.png';
 
 const portfolios = [
     {
@@ -141,6 +142,16 @@ const portfolios = [
         icon1: 'G',
         icon2: 'I',
         image: port13,
+        title: 'Weather app'
+    },
+    {
+        id: 14,
+        category: 'Test Port',
+        link1: 'https://portfolio-mc-krusold.netlify.app',
+        link2: 'https://github.com/login101i/portfolio',
+        icon1: 'G',
+        icon2: 'I',
+        image: port14,
         title: 'Weather app'
     },
 ]
