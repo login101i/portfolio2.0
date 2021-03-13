@@ -1,13 +1,13 @@
 import React from 'react'
 
-function MenuItems({menuItem}) {
+function MenuItems({ menuItem }) {
     return (
         <div className="portfolis">
             {
-                menuItem.map((item)=>{
-                    return <div className="portfolio" key={item.id}>
+                menuItem.map((item) => {
+                    return <div className="portfolio" key={item.id} style={{margin:'10px'}}>
                         <div className="image-data">
-                            <img src={item.image} alt=""/>
+                            <img src={item.image} alt="" style={{ objectFit: 'contain' }} />
                             <ul className="hover-items">
                                 <li>
                                     <a href={item.link1}>{item.icon1}</a>
@@ -15,14 +15,14 @@ function MenuItems({menuItem}) {
                                 </li>
                             </ul>
                         </div>
-                        <h5>
+                        <h5 style={{ textAlign: 'center' }}>
                             {item.title}
                         </h5>
-                       
+
                     </div>
                 })
             }
-        </div>
+        </div >
     )
 }
 
