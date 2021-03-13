@@ -152,7 +152,7 @@ const portfolios = [
         icon1: 'G',
         icon2: 'I',
         image: port14,
-        title: 'Weather app'
+        title: 'First portfolios'
     },
 ]
 
