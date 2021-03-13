@@ -11,11 +11,11 @@ function HomePage() {
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
-                    Hi, I am MERN Developer
+                    Hi, I am Front End Developer
                     <span></span>
                 </h1>
                 <p className="h-sub-text">
-                    I am a young java script developer working with the ReactJS. Pushing forward to gain more experience with React, NodeJs, MongoDB/Postman JavaScript and a litle bit of testing with Jest. Check out my repositories on github by clicking on icon below.
+                    I am a young java script developer working with the ReactJS. Pushing forward to gain more experience with React, NodeJs, MongoDB/Postman JavaScript and a litle bit of testing with Jest but basicly I focus on HTML/CSS/JS. Check out my repositories on github by clicking on icon below.
                 </p>
                 <div className="icons">
                     {/* <Link to="test" className="icon-holder">

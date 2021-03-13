@@ -1,29 +1,29 @@
 import React from 'react';
 import Tittle from '../Components/Tittle';
 import allBlogs from '../Components/allBlogs';
+import { Link } from 'react-router-dom'
 
 function BlogsPage() {
     return (
         <div >
-            Page under contruction.
-            {/* <div className="b-title">
+            <div className="b-title">
                 <Tittle title={'Recent Blogs'} span={'Recent Blogs'} />
             </div>
             <div className="BlogsPage">
                 {
-                    allBlogs.map((blog)=>{
+                    allBlogs.map((blog) => {
                         return <div className="blog" key={blog.id}>
                             <div className="blog-content">
-                                <img src={blog.image} alt=""/>
-                                <a href={blog.link} className="blog-link">
+                                <img src={blog.image} alt="" />
+                                <Link to={`./blog/${blog.param}`} className="blog-link">
                                     {blog.title}
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     })
                 }
-            </div> */}
-            
+            </div>
+
         </div>
     )
 }

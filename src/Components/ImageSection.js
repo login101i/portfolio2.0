@@ -8,7 +8,7 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>I am<span> Front Developer</span></h4>
+                <h4>I am<span> login101i</span></h4>
                 <p className="about-text">
                     Below a little information about me. To be honest the more I write the smaller image is so I try typing as long as possible to make it event invisible on this page. But comming back to the clue of this page. Below you will find progress bars with my skills. Check them out :)
                 </p>
