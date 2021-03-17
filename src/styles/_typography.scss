@@ -43,3 +43,49 @@
         }
     }
 }
+
+.packages{
+    display:flex;
+    margin-top:50px;
+ 
+    .frontend{
+        display:flex;
+        flex-direction:column;
+       width:50%;
+              flex-direction:column;
+        align-items:center;
+            .frontend-packages{
+                display:flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                p{
+                    margin:5px;
+                     font-size:15px;
+                }
+            }
+         
+
+    }
+    .backend{
+        display:flex;
+        flex-direction:column;
+            width:50%;
+              flex-direction:column;
+        align-items:center;
+          .backend-packages{
+                display:flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                p{
+                    margin:5px;
+                     font-size:15px;
+                }
+            }
+    }
+}
+
+@media  (max-width: 800px) {
+  .packages{
+      display:none;
+  }
+}

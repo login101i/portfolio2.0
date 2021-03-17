@@ -24,7 +24,7 @@ function AboutPage() {
                 {/* <SkillsSection skill={'Typescript'} progress={'3%'} width={'3%'} /> */}
                 <SkillsSection skill={'MongoDB/Postman'} progress={'59%'} width={'59%'} />
 
-                <SkillsSection skill={'PHP/Wordpress'} progress={'5%'} width={'5%'} />
+                <SkillsSection skill={'PHP/Wordpress'} progress={'75%'} width={'75%'} />
 
 
             </div>

@@ -29,6 +29,7 @@
         background-color: #10121B;
         min-height: 100vh;
         background-image: url(../img/dots.svg);
+        background-repeat:repeat-y;
         display: grid;
         position: relative;
         .content{
