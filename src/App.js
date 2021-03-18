@@ -8,6 +8,7 @@ import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import { useState } from 'react';
 import BlogArticle1 from './Pages/BlogArticle1'
+import BlogArticle2 from './Pages/BlogArticle2'
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -43,6 +44,9 @@ function App() {
             </Route>
             <Route path="/blog/continuous_integration" exact>
               <BlogArticle1 />
+            </Route>
+            <Route path="/blog/responsive_design" exact>
+              <BlogArticle2 />
             </Route>
             <Route path="/contact" exact>
               <ContactPage />

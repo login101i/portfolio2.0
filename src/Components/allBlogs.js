@@ -7,10 +7,19 @@ import blog5 from '../img/blogs/blog5.svg';
 const blogs = [
     {
         id: 1,
+        image: blog2,
+        title: 'Responsive web design - 10 basics ',
+        date : '1',
+        param:'responsive_design',
+        month: 'Mar',
+        year: '2021'
+    },
+    {
+        id: 2,
         image: blog1,
         title: 'Continuous Integration (CI) provider. Should we use it?',
-        date : '1',
-        param:'continuous_integration',
+        date: '2',
+        param: 'continuous_integration',
         month: 'Mar',
         year: '2021'
     }
