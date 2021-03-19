@@ -15,14 +15,14 @@ const SingleBlog = () => {
             </div>
             <div className="row mt-3">
 
-                <div className="mt-3 col-12"><strong>In this article we gonna be describing the ten basic principles do you neen to kno about responsive web design.</strong> <br /> <br />
+                <div className="mt-3 col-12"><strong>In this article we gonna be describing the ten basic principles you need to know about responsive web design.</strong> <br /> <br />
                 Responsive web desing is an awesome solutions to the multitude of different screen sizes and resolutions that we have to deal with. As digital designer this would be a great source of information if you are just getting started building websites whether it's desing or development and you want to make sure you have a firm grasp of the basics.</div>
 
 
-                <h4 className="mt-3 col-12">Before we get started, personally I miss the days of pinching and zooming in your mobile browser on old-school websites. I thought that was really the best way to do it. I'am just kidding</h4>
+                <h4 className="mt-3 col-12">Before we get started, personally I miss the days of pinching and zooming in my mobile browser on old-school websites. I thought that was really the best way to do it. I'am just kidding.</h4>
 
                 <div className="mt-3 col-12">
-                    <strong> The first principle</strong>    that you need to know about is the difference between responsive and adaptive web design. Your content is gonna blow & blow. It's gonna squish and release consistently as the browser or devide size changes. Adaptive web design on the other hand is just going to adapt at certain sizes. There's no right or wrong answer. It just depends on which one you want.
+                    <strong> The first principle</strong>    that you need to know about is the difference between responsive and adaptive web design. Your content is gonna blow. It's gonna squish and release consistently as the browser or devide size changes. Adaptive web design on the other hand is just going to adapt at certain sizes. There's no right or wrong answer. It just depends on which one you want.
 
             </div>
                 <div className="mt-3 col-12">
