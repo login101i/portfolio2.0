@@ -10,6 +10,7 @@
         background-color:#161925;
         width: 100%;
         max-width:500px;
+        min-width: 250px;
         padding: 1rem;
         overflow: hidden;
         border-radius:7px;
@@ -21,6 +22,8 @@
             img{
                 width: 100%;
                 transition: all .2s ease-in-out;
+                        min-width: 250px;
+
                 &:hover{
                     transform: scale(1.1);
                 }
