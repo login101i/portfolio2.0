@@ -27,6 +27,10 @@ body{
     color: #d9dde9;
    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+      -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 span{
     color: #3858cc;

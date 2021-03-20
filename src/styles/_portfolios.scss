@@ -1,64 +1,54 @@
 .PortfolioPage{
      margin:0px;
      padding:0px;
-      
-    .title{
-
-    }
+     position:relative;
+     transition: all 0.5s ease-in-out;
     .portfolios{
         .portfolis{
         display:grid;
         grid-template-columns:repeat(2,1fr);
         @media screen and (max-width:600px){
-                    grid-template-columns:repeat(1,1fr);
-
+        grid-template-columns:repeat(1,1fr);
         }
             .portfolio{
                .image-data{
                         position: relative;
-                     &::before{
-                        content: "";
-                        position: absolute;
-                        top: 10px;
-                        left: 10px;
-                        height: calc(100%);
-                        width: calc(100%);
-                        background-color: rgba(255, 255, 255, 0.664);
-                        transform-origin: center;
-                        transform: scale(0);
-                        transition: all .4s ease-in-out;
-                            @media screen and (max-width:800px){
-                         display:none;
-                }
-
-                    }
-                    &:hover::before{
-                        transform:scale(0.7)
-                    }
-                    img{
+                        display:flex;
+                        justify-content:center;
+                        align-items:center;
                         width:100%;
-                        height:100%;
+                    img{
+                        max-width:80%;
+                        text-align:center;
+                        border-radius:8px;
+                        object-fit:cover;
                     }
-                    
                  .hover-items{
                
-                list-style: none;
+             list-style: none;
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%, -50%);
                 padding: 1rem 2rem;
-                visibility: hidden;
-              
+               transform: translate(-50%, -50%) scale(0);
+                 transition: all .2s ease-in-out;
+                 display:flex;
+                 flex-direction:column;
+                align-items:center;
+                width:100%;
                 li{
+                    margin-top:16px;
+                    z-index:222;
+                    display:block;
+
                     a{
-                        padding: 1rem;
+                        padding: 0.5rem;
                         text-decoration: none;
                         font-family: inherit;
                         border-radius: 3px;
-                        width:40%;
-                        height:40%;
-                        background-color: #037FFF;
+                        width:100%;
+                        height:80%;
+                        background-color: #3858cc;
                         color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
@@ -68,17 +58,14 @@
                       @media screen and (max-width:800px){
                          display:none;
                 }
-               
             }
     
-            &:hover{
-                .hover-items{
-                    transition: all .5s ease-in-out .2s;
-                    visibility: visible;
-                    top: 50%;
+            &:hover .hover-items{
+               transform: translate(-50%, -50%) scale(1);
+           
                 }
               
-            }
+            
                 }
             }
                  h5{
@@ -90,13 +77,35 @@
                     &:hover{
                         color:rgb(235, 235, 235);
                         cursor:pointer;
-
                 }
-               
                 }
         }
        
 
+    }
+    .project-info{
+       width: 85%;
+
+
+        max-height: 300px;
+        position:fixed;
+        bottom: 0;
+        right: 0;
+
+    .descriptionHidden{
+        // transform:translateY(100%);
+              transition:all 0.5s ease-in-out;
+
+    }
+        .description{
+        margin:0 auto;
+        height:444px;
+        max-height: 400px;
+        background-color:grey;
+        padding:22px 60px;
+        color:white;
+      transform:translateY(0%);
+        }
     }
 }
 .buttons{
@@ -106,8 +115,9 @@
     justify-content:center;
     align-items:center;
 
+
     .btn-port{
-    padding:10px 20px;
+    padding:6px 10px;
     outline:none;
     background:white;
     font-size:14px;
@@ -118,25 +128,30 @@
     border-radius:4px;
     transition:all 0.4s ease;
     &:hover{
-        background-color:rgb(235, 235, 235);
+        background-color:rgb(175, 175, 175);
     }
     &:active{
         background-color:rgb(206, 76, 76);
         
     }
        &:focus{
-        background-color:rgb(67, 36, 167);
+        background-color:#3858cc;
             color:white;
-
+    }
+}
+}
+  .github{
+     text-align:center;
+    margin:10px 0 15px 0px;
+    color:#222;
+    text-decoration: none;    
+}
+ .grey{
+        @media screen and (max-width: 2000px){
+            filter:grayscale(90%);
+            cursor:pointer;
+            z-index:200;
+        }
     }
 
-}
-}
 
-  .github{
-                    text-align:center;
-                    margin:10px 0 15px 0px;
-                    color:#222;
-                    text-decoration: none;
-                    
-                }

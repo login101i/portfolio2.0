@@ -18,12 +18,13 @@ const portfolios = [
     {
         id: 15,
         category: 'Wordpress',
-        link1: 'www.akan.com.pl',
+        link1: 'http://www.akan.com.pl',
         // link2: 'https://github.com/login101i/MERN-2-cukierniaSowa',
         // icon1: 'G',
         icon2: 'I',
         image: port15,
-        title: 'www.akan.com.pl'
+        title: 'www.akan.com.pl',
+        description: " lsdfkjsodfsdf sfs fs fsd f sdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdf "
     },
     {
         id: 1,
@@ -33,7 +34,9 @@ const portfolios = [
         icon1: 'G',
         icon2: 'I',
         image: port1,
-        title: 'Cukiernia Sowa'
+        title: 'Cukiernia Sowa',
+        description: " lsdfkjsodfsdf sfs fs fsd fsdf "
+
     },
     {
         id: 2,

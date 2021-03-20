@@ -9,7 +9,6 @@ function Navbar() {
                 <div className="profile">
                     <img src={avatar} alt=""/>
                  </div>
-
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">

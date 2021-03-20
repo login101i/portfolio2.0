@@ -14,8 +14,8 @@ function BlogsPage() {
                     allBlogs.map((blog) => {
                         return <div className="blog" key={blog.id}>
                             <div className="blog-content">
-                                <img src={blog.image} alt="" />
                                 <Link to={`./blog/${blog.param}`} className="blog-link">
+                                    <img src={blog.image} alt="" />
                                     {blog.title}
                                 </Link>
                             </div>
