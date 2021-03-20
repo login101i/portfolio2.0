@@ -2,10 +2,10 @@
     .sidebar{
         width: 16%;
         height: 100vh;
-        background-color: #191D2B;
+        background-color: #191919;
         position: fixed;
         z-index: 11;
-        border-right: 1px solid #2e344e;
+        border-right: 3px solid #2a2c33;
         transform-origin: left;
         @media screen and (max-width: 1000px){
             transition: all .4s ease-in-out;
@@ -26,22 +26,26 @@
     .main-content{
         width: 84%;
         margin-left: 16%;
-        background-color: #10121B;
         min-height: 100vh;
-        background-image: url(../img/dots.svg);
-        background-repeat:repeat-y;
+        background-image: url(../img/wood-background.jpg);
+         background-repeat: no-repeat;
+        background-size: cover;
         display: grid;
         position: relative;
+        transition:all 0.4s ease-in-out;
         .content{
-            margin: 5rem 15rem;
+          padding:50px 50px;
+            @media screen and (max-width: 2200px){
+                margin: 1rem 10rem;
+            }
             @media screen and (max-width: 1100px){
-                margin: 2rem 10rem;
+                margin: 3rem 6rem;
             }
             @media screen and (max-width: 1400px){
-                margin: 3rem 10rem;
+                margin: 2rem 4rem;
             }
             @media screen and (max-width: 1400px){
-                margin: 3rem 10rem;
+                margin: 3rem 4rem;
             }
             @media screen and (max-width: 710px){
                 margin: 2rem 3rem;
@@ -50,6 +54,12 @@
         @media screen and (max-width: 1000px){
             margin-left: 0;
             width: 100%;
+        }
+    }
+     .gray{
+        @media screen and (max-width: 2000px){
+            filter:grayscale(90%);
+            cursor:pointer;
         }
     }
 }

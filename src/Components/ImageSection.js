@@ -5,7 +5,7 @@ function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="img">
-                <img src={about} alt=""/>
+                <img src={about} alt="myPhoto" />
             </div>
             <div className="about-info">
                 <h4>I am<span> login101i</span></h4>
@@ -19,7 +19,7 @@ function ImageSection() {
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
-                       
+
                     </div>
                     <div className="right-section">
                         <p>: Maciej Kruszyniak</p>
@@ -27,10 +27,10 @@ function ImageSection() {
                         <p>: Polish</p>
                         <p>: Polish, English, Spanish</p>
                         <p>: Inowrocław Poland</p>
-                        
+
                     </div>
                 </div>
-                {/* <button className="btn">Download Cv</button> */}
+                <button className="btn"> <a href="https://ufile.io/j1yw7mwn" target="_blank">Download CV</a> </button>
             </div>
         </div>
     )

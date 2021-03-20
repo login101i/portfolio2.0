@@ -1,20 +1,23 @@
 .BlogsPage{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2.5rem;
-    @media screen and (max-width: 1080px){
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3.5rem;
+    @media screen and (max-width: 780px){
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 2rem;
     }
     .blog{
         background-color:#161925;
         width: 100%;
+        max-width:500px;
         padding: 1rem;
         overflow: hidden;
+        border-radius:7px;
         .blog-content{
             overflow: hidden;
-            padding-bottom: 2rem;
+            padding-bottom: 0.5rem;
             text-align: center;
+            width:80;
             img{
                 width: 100%;
                 transition: all .2s ease-in-out;
@@ -30,9 +33,13 @@
                 font-size: 2rem;
                 padding-bottom: 2rem;
                 transition: all .4s ease-in-out;
+                font-size:22px;
                 &:hover{
-                    color: #037FFF;
+                    color: #3858cc;
                 }
+                @media screen and (max-width:700px){
+                    font-size:17px;
+                } 
             }
         }
     }

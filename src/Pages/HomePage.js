@@ -1,9 +1,6 @@
 import React from 'react';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 
 function HomePage() {
 
@@ -18,17 +15,14 @@ function HomePage() {
                     I am a young java script developer working with the ReactJS. Pushing forward to gain more experience with React, NodeJs, MongoDB/Postman JavaScript and a litle bit of testing with Jest but basicly I focus on HTML/CSS/JS. Check out my repositories on github by clicking on icon below.
                 </p>
                 <div className="icons">
-                    {/* <Link to="test" className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-                    </Link> */}
-                    <a href="https://github.com/login101i" className="icon-holder">
+
+                    <a href="https://github.com/login101i" className="icon-holder"
+                        target="_blank"
+                    >
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </a>
 
 
-                    {/* <Link to="test" className="icon-holder">
-                        <FontAwesomeIcon icon={faYoutube} className="icon yt"/>
-                    </Link> */}
 
 
                 </div>
@@ -44,7 +38,7 @@ function HomePage() {
                             <p>react-helmet</p>
                             <p>react-redux</p>
                             <p>emailjs-com</p>
-                               <p>rc-slider</p>
+                            <p>rc-slider</p>
                             <p>react-alert</p>
                             <p>react-alert-template-basic</p>
                             <p>react-bootstrap</p>
@@ -62,10 +56,10 @@ function HomePage() {
                             <p>react-image-file-resizer</p>
                             <p>next-page-transitions</p>
                             <p>emailjs-com</p>
-                          
+
 
                         </div>
-                       
+
                     </div>
                     <div className="backend">
                         <h5>Backend</h5>
@@ -81,11 +75,11 @@ function HomePage() {
                             <p>body-parser</p>
                             <p>cloudinary</p>
                             <p>cooki-parser</p>
-                           <p>express-fileupload</p>
-                         <p>jsonwebtoken</p>
-                         <p>nodemailer</p>
-                         <p>stripe</p>
-                         <p>validator</p>
+                            <p>express-fileupload</p>
+                            <p>jsonwebtoken</p>
+                            <p>nodemailer</p>
+                            <p>stripe</p>
+                            <p>validator</p>
                             <p>firebase-admin</p>
                             <p>slugify</p>
 

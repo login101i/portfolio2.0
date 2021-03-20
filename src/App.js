@@ -16,6 +16,9 @@ function App() {
   const navClick = () => {
     setNavToggle(!navToggle)
   }
+  const mainContentClick = () => {
+    setNavToggle(false)
+  }
 
   return (
     <div className="App">
@@ -27,7 +30,9 @@ function App() {
         <div className="lines-2"></div>
         <div className="lines-3"></div>
       </div>
-      <div className="main-content">
+      <div
+        onClick={mainContentClick}
+      className={`main-content ${navToggle? "gray":''}`}>
         <div className="content">
           <Switch>
             <Route path="/" exact>

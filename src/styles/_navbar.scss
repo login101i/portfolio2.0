@@ -11,11 +11,11 @@
             width: 100%;
             text-align: center;
             margin-top: 1rem;
-            border-bottom: 1px solid #2e344e;
+            border-bottom: 2px solid #2a2c33;
             img{
                 width: 70%;
                 border-radius: 100%;
-                border: 5px solid #2e344e;
+                border: 5px solid #3858cc;
                 margin-bottom: 1rem;
             }
         }
@@ -56,7 +56,7 @@
 
         .footer{
             width: 100%;
-            border-top: 1px solid #2e344e;
+            border-top: 2px solid #2a2c33;
             p{
                 text-align: center;
                 padding: 1rem 0;
@@ -66,5 +66,5 @@
 }
 
 .active{
-    background-color: #037FFF;
+    background-color: #3858cc;
 }
