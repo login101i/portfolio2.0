@@ -1,0 +1,70 @@
+@import 'config';
+@import 'utilities';
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0px;
+}
+html{
+    font-size:10px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;    font-size:1.5rem;
+    line-height: 16px;
+    color:#222;
+    background-color: rgb(241, 241, 241);
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-bottom:2px solid $primary-color;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.9;
+    position:fixed;
+    ul{
+        display:flex;
+        a{
+            padding:0.4rem;
+            color:white;
+            &:hover{
+                color:$primary-color
+            }
+        }
+    }
+}
+ul{
+    list-style:none;
+}
+
+a{
+    color:$primary-color;
+        text-decoration: none;
+        color:white;
+        
+}
+img{
+    width:100%;
+}
+// landing class
+.landing{
+    position:relative;
+    background:url(../img/wood-background.jpg) no-repeat center ;
+    height:100vh;
+    &-inner{
+        color:white;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        width:80;
+        margin:0 auto;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
