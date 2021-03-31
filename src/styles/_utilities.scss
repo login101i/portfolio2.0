@@ -9,6 +9,7 @@
 
 .text-primary{
   color:$primary-color;
+  margin:1rem 0rem;
 }
 
 // Backgrounds
@@ -131,3 +132,30 @@
   }
 }
 
+p{
+  margin:0.4rem 0rem;
+}
+.line{
+  height: 1px;
+  background-color: #222;
+  margin:2rem 1rem;
+}
+
+.badge{
+  font-size:1.2rem;
+  padding:0.1rem;
+  text-align:center;
+  background: $light-color;
+  color:#333;
+  margin:0.3rem 0rem;
+  &.badge-primary{
+    @include set-background($primary-color);
+  }
+    &.badge-dark{
+    @include set-background($dark-color);
+  }
+    &.badge-success{
+    @include set-background($success-color);
+  }
+  
+}
