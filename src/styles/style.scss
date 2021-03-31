@@ -1,5 +1,6 @@
 @import 'config';
 @import 'utilities';
+@import 'form';
 
 *{
     box-sizing:border-box;
@@ -26,6 +27,7 @@ body{
     z-index: 1;
     opacity: 0.9;
     position:fixed;
+    top:0;
     ul{
         display:flex;
         a{
@@ -44,7 +46,7 @@ ul{
 a{
     color:$primary-color;
         text-decoration: none;
-        color:white;
+        // color:white;
         
 }
 img{
