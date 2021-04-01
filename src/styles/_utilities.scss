@@ -159,3 +159,14 @@ p{
   }
   
 }
+
+.table{
+    th,
+    td{
+      text-align: center;
+      padding: 1rem;
+    }
+    th{
+      background:$light-color
+    }
+}

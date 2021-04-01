@@ -162,3 +162,27 @@ grid-gap:1rem;
         }
     }
 }
+
+// posts
+
+.post-form-header{
+    font-size: 3rem;
+    padding:1rem;
+    line-height: 3rem;
+}
+.post{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    // grid-gap: 0.5rem;
+    align-items:center;
+    &>div:first-child{
+        text-align: center;
+        padding:2rem;
+    }
+    img{
+        width:133px;
+    }
+}
+
+@import 'mobile';
+
