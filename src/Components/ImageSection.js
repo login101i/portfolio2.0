@@ -38,7 +38,7 @@ function ImageSection() {
 				</div>
 				<button className="btn">
 					{" "}
-					<a href="https://docdro.id/JmicIm5" target="_blank">
+					<a href="https://docdro.id/JqTfuve" target="_blank">
 						Download CV
 					</a>{" "}
 				</button>
