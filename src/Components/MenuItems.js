@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
 function MenuItems({ portoflioss, greyColor, showGrey }) {
     const [showInfo, setShowInfo] = useState(false)
@@ -17,9 +17,9 @@ function MenuItems({ portoflioss, greyColor, showGrey }) {
                         >
                             <img src={item.image} alt="" style={{ objectFit: 'contain' }} className="image" />
                             <ul className="hover-items">
-                                <li>
+                                {/* <li>
                                     <a href={item.link1} target="_blank"> go live </a>
-                                </li>
+                                </li> */}
                                 {/* <li onClick={() =>
                                     greyColor(!showGrey)
 
@@ -39,11 +39,7 @@ function MenuItems({ portoflioss, greyColor, showGrey }) {
 
                             >Source on github</a>
                         </div>
-                        {/* <div className="project-info">
-                            <div className={` descriptionHidden ${showInfo ? "description" : ""}`}>
-                                {item.description}
-                            </div>
-                        </div> */}
+                       
 
                     </div>
 
