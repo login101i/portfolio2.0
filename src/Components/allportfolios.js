@@ -115,7 +115,7 @@ const portfolios = [
 	{
 		id: 7,
 		category: "Java Script",
-		link1: "https://akangame.netlify.app",
+		link1: "akan-game.netlify.app",
 		link2: "https://github.com/login101i/akan-game",
 		icon1: "G",
 		icon2: "I",
