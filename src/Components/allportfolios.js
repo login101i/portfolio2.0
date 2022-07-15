@@ -86,17 +86,27 @@ const portfolios = [
 		id: 4,
 		category: "Java Script",
 		link1: "https://myvanilla-js-shop.netlify.app",
-		link2: "www.github.com",
+		link2: "https://github.com/login101i/react-beach-resort",
 		icon1: "G",
 		// icon2: 'I',
 		image: port4,
 		title: "Hotel Resort Project"
 	},
 	{
+		id: 14,
+		category: "HTML/CSS/JS",
+		link2: "https://portfolio-mc-krusold.netlify.app",
+		link1: "https://github.com/login101i/portfolio",
+		icon1: "G",
+		icon2: "I",
+		image: port14,
+		title: "First portfolios"
+	},
+	{
 		id: 5,
 		category: "HTML/CSS/JS",
-		link1: "www.youtube.com",
-		link2: "www.github.com",
+		link1: "",
+		link2: "",
 		icon1: "G",
 		// icon2: 'I',
 		image: port5,
@@ -105,8 +115,8 @@ const portfolios = [
 	{
 		id: 6,
 		category: "HTML/CSS/JS",
-		link1: "https://photography-project.netlify.app",
-		link2: "www.github.com",
+		link1: "",
+		link2: "",
 		icon1: "G",
 		// icon2: 'I',
 		image: port6,
@@ -182,16 +192,7 @@ const portfolios = [
 		image: port13,
 		title: "Weather app"
 	},
-	{
-		id: 14,
-		category: "HTML/CSS/JS",
-		link2: "https://portfolio-mc-krusold.netlify.app",
-		link1: "https://github.com/login101i/portfolio",
-		icon1: "G",
-		icon2: "I",
-		image: port14,
-		title: "First portfolios"
-	}
+	
 ];
 
 export default portfolios;
