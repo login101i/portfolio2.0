@@ -69,7 +69,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/MERN-1-dstreet",
 		icon1: "G",
 		icon2: "I",
-		image: port2,
+		image: "https://res.cloudinary.com/mckrus/image/upload/v1657865252/portoflio2.0/dstreet_mdlpos.png,
 		title: "Dstreet, e-commerce site"
 	},
 	{
