@@ -16,7 +16,6 @@ function HomePage() {
 					JavaScript and React Testing Library.
 				</p>
 
-				<p className="red">Let's make a deal!</p>
 				
 				<div className="icons">
 					<a
