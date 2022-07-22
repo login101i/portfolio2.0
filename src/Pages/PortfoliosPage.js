@@ -5,16 +5,12 @@ import MenuItems from '../Components/MenuItems'
 import portfolios from '../Components/allportfolios'
 import FadeIn from 'react-fade-in';
 
-
-
-
 const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
 
 const PortfoliosPage = () => {
     const [categories, setCategories] = useState(allCategories)
     const [portoflioss, setPortfolios] = useState(portfolios)
     const [showGrey, setShowGrey] = useState(false)
-
 
     const filter = (category) => {
         if (category === 'All') {
@@ -26,16 +22,13 @@ const PortfoliosPage = () => {
         })
         setPortfolios(filteredData);
     }
-
     const greyColor = (value) => {
         setShowGrey(value);
     }
-    console.log("greycolor",showGrey)
 
     return (
         
         <div className={` PortfolioPage ${showGrey ? "grey" : ""}`}
-           
         >
             <div className="title">
                 <Title title={"portfolios"} span={"portfolios"} />

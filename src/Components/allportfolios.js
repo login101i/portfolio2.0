@@ -1,33 +1,35 @@
-import port1 from "../img/portImages/cukiernia_sowa.png";
-import port2 from "../img/portImages/dstreet.png";
-import port3 from "../img/portImages/movieDB.jpg";
-import port4 from "../img/portImages/furniture-shop.png";
-import port5 from "../img/portImages/travelly.jpg";
-import port6 from "../img/portImages/elena-joy.jpg";
-import port7 from "../img/portImages/akan.png";
-import port8 from "../img/portImages/7iphone-store.jpg";
-import port9 from "../img/portImages/netflix.jpg";
-import port10 from "../img/portImages/Rn_clothes_app.jpg";
-import port11 from "../img/portImages/BauleStore.png";
-import port12 from "../img/portImages/mern-project-podroze.png";
-import port13 from "../img/portImages/weather.png";
-import port14 from "../img/portImages/first_portfolio.png";
-import port15 from "../img/portImages/akansite.png";
-import port16 from "../img/portImages/allegroWeb.png";
-// import port17 from "../img/portImages/allegroNative.png";
+import image1 from "../img/portImages/cukiernia_sowa.png";
+import image2 from "../img/portImages/dstreet.png";
+import image3 from "../img/portImages/movieDB.jpg";
+import image4 from "../img/portImages/furniture-shop.png";
+import image5 from "../img/portImages/travelly.jpg";
+import image6 from "../img/portImages/elena-joy.jpg";
+import image7 from "../img/portImages/akan.png";
+import image8 from "../img/portImages/7iphone-store.jpg";
+import image9 from "../img/portImages/netflix.jpg";
+import image10 from "../img/portImages/Rn_clothes_app.jpg";
+import image11 from "../img/portImages/BauleStore.png";
+import image12 from "../img/portImages/mern-project-podroze.png";
+import image13 from "../img/portImages/weather.png";
+import image14 from "../img/portImages/first_portfolio.png";
+import image15 from "../img/portImages/akansite.png";
+import image16 from "../img/portImages/allegroWeb.png";
+import image17 from "../img/portImages/booking_com.png";
 
-const portfolios = [
-	// {
-	// 	id: 16,
-	// 	category: "Allegro Web Version",
-	// 	link1: "",
-	// 	// link2: 'https://github.com/login101i/MERN-2-cukierniaSowa',
-	// 	// icon1: 'G',
-	// 	icon2: "I",
-	// 	image: port15,
-	// 	title: "www.akan.com.pl",
-	// 	description: " "
-	// },
+// import image17 from "../img/portImages/allegroNative.png";
+
+const imagefolios = [
+	{
+		id: 16,
+		category: "RestApi",
+		link1: "",
+		link2: "https://github.com/login101i/Booking.com_WEB",
+		// icon1: 'G',
+		icon2: "I",
+		image: image17,
+		title: "Booking.com Clone ",
+		description: " "
+	},
 	{
 		id: 17,
 		category: "E-commerce",
@@ -35,8 +37,8 @@ const portfolios = [
 		link2: "https://github.com/login101i/allegro_desktop",
 		icon1: "G",
 		icon2: "",
-		image: port16,
-		title: "www.allegro.pl",
+		image: image16,
+		title: "www.allegro.pl Clone",
 		description: " "
 	},
 	{
@@ -46,7 +48,7 @@ const portfolios = [
 		// link2: 'https://github.com/login101i/MERN-2-cukierniaSowa',
 		// icon1: 'G',
 		icon2: "I",
-		image: port15,
+		image: image15,
 		title: "www.akan.com.pl",
 		description:
 			" lsdfkjsodfsdf sfs fs fsd f sdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdf "
@@ -58,8 +60,8 @@ const portfolios = [
 		link2: "https://github.com/login101i/MERN-2-cukierniaSowa",
 		icon1: "G",
 		icon2: "I",
-		image: port1,
-		title: "Cukiernia Sowa",
+		image: image1,
+		title: "Cukiernia Sowa Clone",
 		description: " lsdfkjsodfsdf sfs fs fsd fsdf "
 	},
 	{
@@ -69,8 +71,8 @@ const portfolios = [
 		link2: "https://github.com/login101i/MERN-1-dstreet",
 		icon1: "G",
 		icon2: "I",
-		image: port2,
-		title: "Dstreet, e-commerce site"
+		image: image2,
+		title: "Dstreet, e-commerce site Clone"
 	},
 	{
 		id: 3,
@@ -79,7 +81,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/movie-database-app",
 		icon1: "G",
 		icon2: "I",
-		image: port3,
+		image: image3,
 		title: "Movie DataBase"
 	},
 	{
@@ -89,7 +91,7 @@ const portfolios = [
 		link2: "www.github.com",
 		icon1: "G",
 		// icon2: 'I',
-		image: port4,
+		image: image4,
 		title: "Hotel Resort Project"
 	},
 	{
@@ -99,7 +101,7 @@ const portfolios = [
 		link2: "www.github.com",
 		icon1: "G",
 		// icon2: 'I',
-		image: port5,
+		image: image5,
 		title: "Travelly site"
 	},
 	{
@@ -109,7 +111,7 @@ const portfolios = [
 		link2: "www.github.com",
 		icon1: "G",
 		// icon2: 'I',
-		image: port6,
+		image: image6,
 		title: "Photographer site "
 	},
 	{
@@ -119,7 +121,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/akan-game",
 		icon1: "G",
 		icon2: "I",
-		image: port7,
+		image: image7,
 		title: "Akan quiz"
 	},
 	{
@@ -129,7 +131,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/Iphone-Store",
 		icon1: "G",
 		icon2: "I",
-		image: port8,
+		image: image8,
 		title: "Iphone store"
 	},
 	{
@@ -139,8 +141,8 @@ const portfolios = [
 		link2: "https://github.com/login101i/netflix-clone",
 		icon1: "G",
 		icon2: "I",
-		image: port9,
-		title: "Netflix clone"
+		image: image9,
+		title: "Netflix Clone"
 	},
 	{
 		id: 10,
@@ -149,7 +151,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/RN-clothes-app",
 		icon1: "G",
 		icon2: "I",
-		image: port10,
+		image: image10,
 		title: "Clothes app with React Native"
 	},
 	{
@@ -159,7 +161,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/Baule-store",
 		icon1: "G",
 		icon2: "I",
-		image: port11,
+		image: image11,
 		title: "Baule Store"
 	},
 	{
@@ -169,7 +171,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/Baule-store",
 		icon1: "G",
 		icon2: "I",
-		image: port12,
+		image: image12,
 		title: "Beautiful Places MERN PROJECT"
 	},
 	{
@@ -179,7 +181,7 @@ const portfolios = [
 		link2: "https://github.com/login101i/weather-app-react",
 		icon1: "G",
 		icon2: "I",
-		image: port13,
+		image: image13,
 		title: "Weather app"
 	},
 	{
@@ -189,9 +191,9 @@ const portfolios = [
 		link1: "https://github.com/login101i/portfolio",
 		icon1: "G",
 		icon2: "I",
-		image: port14,
-		title: "First portfolios"
+		image: image14,
+		title: "First imagefolios"
 	}
 ];
 
-export default portfolios;
+export default imagefolios;
