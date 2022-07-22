@@ -16,13 +16,7 @@ function HomePage() {
 					JavaScript and React Testing Library.
 				</p>
 
-				<p className="red">Let's make a deal!</p>
-				<p className="h-sub-text">
-					Yes, I now have a job but until the end of September or earlier I
-					would like to be in IT industry. For the following months, I can take
-					a solid training for the position. Everything I need is an experienced
-					developer support. I will gladly accept the task checking my skills.
-				</p>
+				
 				<div className="icons">
 					<a
 						href="https://github.com/login101i"
