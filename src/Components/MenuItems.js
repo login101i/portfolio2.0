@@ -1,52 +1,68 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-function MenuItems({ portoflioss, greyColor, showGrey }) {
-    const [showInfo, setShowInfo] = useState(false)
+import PortfolioDescription from "./PortfolioDescription";
 
+function MenuItems({ portfoliosData }) {
+	const [isDescription, setIsDescription] = useState(false);
+	const [portfolioIndex, setPortfolioIndex] = useState("");
 
-    console.log("ShowInfo value", showInfo)
+	const handleDescription = (index) => {
+		setIsDescription(!isDescription);
+		setPortfolioIndex(index);
+	};
 
-    return (
-        <div className="portfolis">
-            {
-                portoflioss.map((item) => {
-                    return <div className="portfolio" key={item.id} style={{ margin: '10px' }}>
+	return (
+		<div className="portfolios">
+			{portfoliosData.map((portfolio, index) => (
+				<div
+					className="portfolio"
+					key={portfolio.id}
+					style={{ margin: "10px" }}
+				>
+					<div className="image-data">
+						<img
+							src={portfolio.image}
+							alt=""
+							style={{ objectFit: "contain" }}
+							className="image"
+						/>
+						<ul className="hover-items">
+							{portfolio.description && (
+								<li onClick={() => handleDescription(index)}>
+									<a>Show descripion</a>
+								</li>
+							)}
+							{portfolio.link2 && (
+								<li>
+									<a
+										href={portfolio.link2}
+										style={{ textAlign: "center" }}
+										target="_blank"
+									>
+										Source on github
+									</a>
+								</li>
+							)}
+							{portfolio.link1 && (
+								<li>
+									<a href={portfolio.link1} target="_blank">
+										Visit online
+									</a>
+								</li>
+							)}
+						</ul>
+					</div>
 
-                        <div className="image-data"
-
-                        >
-                            <img src={item.image} alt="" style={{ objectFit: 'contain' }} className="image" />
-                            <ul className="hover-items">
-                                {/* <li>
-                                    <a href={item.link1} target="_blank"> go live </a>
-                                </li> */}
-                                {/* <li onClick={() =>
-                                    greyColor(!showGrey)
-
-                                }
-                                    style={{ zIndex: 111 }}>
-                                    <a
-                                    > show info </a>
-                                </li> */}
-                            </ul>
-                        </div>
-
-                        <h5 style={{ textAlign: 'center', }}>
-                            {item.title}
-                        </h5>
-                        <div style={{ color: "#222" }} className="github" >
-                            <a href={item.link2} style={{ textAlign: 'center' }} target="_blank"
-
-                            >Source on github</a>
-                        </div>
-                       
-
-                    </div>
-
-                })
-            }
-        </div >
-    )
+					<PortfolioDescription
+						portfoliosData={portfoliosData}
+						isDescription={isDescription}
+						handleDescription={handleDescription}
+						portfolioIndex={portfolioIndex}
+					/>
+				</div>
+			))}
+		</div>
+	);
 }
 
 export default MenuItems;

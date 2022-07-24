@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from "../img/avatar.png";
 
 function ImageSection() {
 	return (
@@ -11,11 +10,7 @@ function ImageSection() {
 				<h4>
 					I am<span> login101i</span>
 				</h4>
-				{/* <p>
-					To be honest the more I write the smaller image is so I try typing as
-					long as possible to make it event invisible on this page. But comming
-					back to the clue of this page.
-				</p> */}
+
 				<p className="about-text">
 					Below a little information about me. Below you will find progress bars
 					with my skills. Check them out :)
@@ -38,9 +33,7 @@ function ImageSection() {
 				</div>
 				<button className="btn">
 					{" "}
-					<a href="https://docdro.id/JqTfuve" target="_blank">
-						Download CV
-					</a>{" "}
+					<a target="_blank">Download CV</a>{" "}
 				</button>
 			</div>
 		</div>

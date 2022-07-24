@@ -1,66 +1,59 @@
-import './App.scss';
-import NavBar from './Components/NavBar';
-import HomePage from './Pages/HomePage';
-import { Switch, Route } from 'react-router-dom';
-import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
-import BlogsPage from './Pages/BlogsPage';
-import ContactPage from './Pages/ContactPage';
-import { useState } from 'react';
-import BlogArticle1 from './Pages/BlogArticle1'
-import BlogArticle2 from './Pages/BlogArticle2'
+import { useState } from "react";
+import { Switch, Route } from "react-router-dom";
+import {
+	HomePage,
+	AboutPage,
+	PortfoliosPage,
+	BlogsPage,
+	ContactPage,
+	BlogArticle1,
+	BlogArticle2
+} from "./Pages";
+import { NavbarBurger } from "./Components";
+import "./App.scss";
 
 function App() {
-  const [navToggle, setNavToggle] = useState(false);
+	const [navToggle, setNavToggle] = useState(false);
 
-  const navClick = () => {
-    setNavToggle(!navToggle)
-  }
-  const mainContentClick = () => {
-    setNavToggle(false)
-  }
+	const mainContentClick = () => {
+		setNavToggle(false);
+	};
 
-  return (
-    <div className="App">
-      <div className={`sidebar ${navToggle ? 'nav-toggle' : ''}`}>
-        <NavBar />
-      </div>
-      <div className="nav-btn" onClick={navClick}>
-        <div className="lines-1"></div>
-        <div className="lines-2"></div>
-        <div className="lines-3"></div>
-      </div>
-      <div
-        onClick={mainContentClick}
-      className={`main-content ${navToggle? "gray":''}`}>
-        <div className="content">
-          <Switch>
-            <Route path="/" exact>
-              <HomePage />
-            </Route>
-            <Route path="/about" exact>
-              <AboutPage />
-            </Route>
-            <Route path="/portfolios" exact>
-              <PortfliosPage />
-            </Route>
-            <Route path="/blogs" exact>
-              <BlogsPage />
-            </Route>
-            <Route path="/blog/continuous_integration" exact>
-              <BlogArticle1 />
-            </Route>
-            <Route path="/blog/responsive_design" exact>
-              <BlogArticle2 />
-            </Route>
-            <Route path="/contact" exact>
-              <ContactPage />
-            </Route>
-          </Switch>
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<div className="App">
+			<NavbarBurger />
+			<div
+				onClick={mainContentClick}
+				className={`main-content ${navToggle ? "gray" : ""}`}
+			>
+				<div className="content">
+					<Switch>
+						<Route path="/" exact>
+							<HomePage />
+						</Route>
+						<Route path="/about" exact>
+							<AboutPage />
+						</Route>
+						<Route path="/portfolios" exact>
+							<PortfoliosPage />
+						</Route>
+						<Route path="/blogs" exact>
+							<BlogsPage />
+						</Route>
+						<Route path="/blog/continuous_integration" exact>
+							<BlogArticle1 />
+						</Route>
+						<Route path="/blog/responsive_design" exact>
+							<BlogArticle2 />
+						</Route>
+						<Route path="/contact" exact>
+							<ContactPage />
+						</Route>
+					</Switch>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default App;

@@ -16,194 +16,162 @@ import image15 from "../img/portImages/akansite.png";
 import image16 from "../img/portImages/allegroWeb.png";
 import image17 from "../img/portImages/booking_com.png";
 
-// import image17 from "../img/portImages/allegroNative.png";
-
-const imagefolios = [
+const portfoliosData = [
 	{
-		id: 16,
-		category: "RestApi",
+		id: 0,
+		category: "Rest API",
 		link1: "",
 		link2: "https://github.com/login101i/Booking.com_WEB",
-		// icon1: 'G',
-		icon2: "I",
 		image: image17,
 		title: "Booking.com Clone ",
-		description: " "
-	},
-	{
-		id: 17,
-		category: "E-commerce",
-		link1: "",
-		link2: "https://github.com/login101i/allegro_desktop",
-		icon1: "G",
-		icon2: "",
-		image: image16,
-		title: "www.allegro.pl Clone",
-		description: " "
-	},
-	{
-		id: 15,
-		category: "Wordpress",
-		link1: "http://www.akan.com.pl",
-		// link2: 'https://github.com/login101i/MERN-2-cukierniaSowa',
-		// icon1: 'G',
-		icon2: "I",
-		image: image15,
-		title: "www.akan.com.pl",
-		description:
-			" lsdfkjsodfsdf sfs fs fsd f sdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdfkjsodfsdf sfs fs fsd fsdf "
+		description: { header: "Opis w trakcie tworzenia.. ." }
 	},
 	{
 		id: 1,
 		category: "E-commerce",
-		link1: "https://sukierniasowa.herokuapp.com",
-		link2: "https://github.com/login101i/MERN-2-cukierniaSowa",
-		icon1: "G",
-		icon2: "I",
-		image: image1,
-		title: "Cukiernia Sowa Clone",
-		description: " lsdfkjsodfsdf sfs fs fsd fsdf "
+		link1: "",
+		link2: "https://github.com/login101i/allegro_desktop",
+		image: image16,
+		title: "www.allegro.pl Clone",
+		description: null
 	},
 	{
 		id: 2,
-		category: "E-commerce",
-		link1: "https://dstreet.herokuapp.com",
-		link2: "https://github.com/login101i/MERN-1-dstreet",
-		icon1: "G",
-		icon2: "I",
-		image: image2,
-		title: "Dstreet, e-commerce site Clone"
+		category: "Wordpress",
+		link1: "http://www.akan.com.pl",
+		link2: "",
+		image: image15,
+		title: "www.akan.com.pl",
+		description: null
 	},
+
 	{
 		id: 3,
-		category: "RestAPI",
-		link1: "https://moviedbapplication.netlify.app",
-		link2: "https://github.com/login101i/movie-database-app",
-		icon1: "G",
-		icon2: "I",
-		image: image3,
-		title: "Movie DataBase"
+		category: "E-commerce",
+		link1: "https://sukierniasowa.herokuapp.com",
+		link2: "https://github.com/login101i/MERN-2-cukierniaSowa",
+		image: image1,
+		title: "Cukiernia Sowa Clone",
+		description: null
 	},
 	{
 		id: 4,
-		category: "Java Script",
-		link1: "https://myvanilla-js-shop.netlify.app",
-		link2: "https://github.com/login101i/react-beach-resort",
-		icon1: "G",
-		// icon2: 'I',
-		image: image4,
-		title: "Hotel Resort Project"
-	},
-	{
-		id: 14,
-		category: "HTML/CSS/JS",
-		link2: "https://portfolio-mc-krusold.netlify.app",
-		link1: "https://github.com/login101i/portfolio",
-		icon1: "G",
-		icon2: "I",
-		image: port14,
-		title: "First portfolios"
+		category: "E-commerce",
+		link1: "https://dstreet.herokuapp.com",
+		link2: "https://github.com/login101i/MERN-1-dstreet",
+		image: image2,
+		title: "Dstreet, e-commerce site Clone",
+		description: null
 	},
 	{
 		id: 5,
-		category: "HTML/CSS/JS",
-		link1: "",
-		link2: "",
-		icon1: "G",
-		// icon2: 'I',
-		image: image5,
-		title: "Travelly site"
+		category: "Rest API",
+		link1: "https://moviedbapplication.netlify.app",
+		link2: "https://github.com/login101i/movie-database-app",
+		image: image3,
+		title: "Movie DataBase",
+		description: null
 	},
 	{
 		id: 6,
+		category: "Java Script",
+		link1: "https://myvanilla-js-shop.netlify.app",
+		link2: "https://github.com/login101i/react-beach-resort",
+		image: image4,
+		title: "Hotel Resort Project",
+		description: null
+	},
+
+	{
+		id: 7,
 		category: "HTML/CSS/JS",
 		link1: "",
 		link2: "",
-		icon1: "G",
-		// icon2: 'I',
-		image: image6,
-		title: "Photographer site "
-	},
-	{
-		id: 7,
-		category: "Java Script",
-		link1: "akan-game.netlify.app",
-		link2: "https://github.com/login101i/akan-game",
-		icon1: "G",
-		icon2: "I",
-		image: image7,
-		title: "Akan quiz"
+		image: image5,
+		title: "Travelly site",
+		description: null
 	},
 	{
 		id: 8,
-		category: "ReactJS",
-		link1: "https://mkrus-iphone-store.netlify.app",
-		link2: "https://github.com/login101i/Iphone-Store",
-		icon1: "G",
-		icon2: "I",
-		image: image8,
-		title: "Iphone store"
+		category: "HTML/CSS/JS",
+		link1: "",
+		link2: "",
+		image: image6,
+		title: "Photographer site ",
+		description: null
 	},
 	{
 		id: 9,
-		category: "RestAPI",
-		link1: "https://netflix-clone-mkrus.netlify.app",
-		link2: "https://github.com/login101i/netflix-clone",
-		icon1: "G",
-		icon2: "I",
-		image: image9,
-		title: "Netflix Clone"
+		category: "Java Script",
+		link1: "akan-game.netlify.app",
+		link2: "https://github.com/login101i/akan-game",
+		image: image7,
+		title: "Akan quiz",
+		description: null
 	},
 	{
 		id: 10,
-		category: "React Native",
-		// link1: 'www.youtube.com',
-		link2: "https://github.com/login101i/RN-clothes-app",
-		icon1: "G",
-		icon2: "I",
-		image: image10,
-		title: "Clothes app with React Native"
+		category: "ReactJS",
+		link1: "https://mkrus-iphone-store.netlify.app",
+		link2: "https://github.com/login101i/Iphone-Store",
+		image: image8,
+		title: "Iphone store",
+		description: null
 	},
 	{
 		id: 11,
-		category: "ReactJS",
-		link1: "https://baule-store.vercel.app",
-		link2: "https://github.com/login101i/Baule-store",
-		icon1: "G",
-		icon2: "I",
-		image: image11,
-		title: "Baule Store"
+		category: "Rest API",
+		link1: "https://netflix-clone-mkrus.netlify.app",
+		link2: "https://github.com/login101i/netflix-clone",
+		image: image9,
+		title: "Netflix Clone",
+		description: null
 	},
 	{
 		id: 12,
-		category: "MERN STACK",
-		link1: "https://mern-project.netlify.app",
-		link2: "https://github.com/login101i/Baule-store",
-		icon1: "G",
-		icon2: "I",
-		image: image12,
-		title: "Beautiful Places MERN PROJECT"
+		category: "React Native",
+		link1: "",
+		link2: "https://github.com/login101i/RN-clothes-app",
+		image: image10,
+		title: "Clothes app with React Native",
+		description: null
 	},
 	{
 		id: 13,
-		category: "RestAPI",
-		link1: "https://mkrusweather.netlify.app",
-		link2: "https://github.com/login101i/weather-app-react",
-		icon1: "G",
-		icon2: "I",
-		image: image13,
-		title: "Weather app"
+		category: "ReactJS",
+		link1: "https://baule-store.vercel.app",
+		link2: "https://github.com/login101i/Baule-store",
+		image: image11,
+		title: "Baule Store",
+		description: null
 	},
 	{
 		id: 14,
+		category: "MERN STACK",
+		link1: "https://mern-project.netlify.app",
+		link2: "https://github.com/login101i/Baule-store",
+		image: image12,
+		title: "Beautiful Places MERN PROJECT",
+		description: null
+	},
+	{
+		id: 15,
+		category: "Rest API",
+		link1: "https://mkrusweather.netlify.app",
+		link2: "https://github.com/login101i/weather-app-react",
+		image: image13,
+		title: "Weather app",
+		description: null
+	},
+	{
+		id: 16,
 		category: "HTML/CSS/JS",
 		link2: "https://portfolio-mc-krusold.netlify.app",
 		link1: "https://github.com/login101i/portfolio",
-		icon1: "G",
-		icon2: "I",
 		image: image14,
-		title: "First imagefolios"
+		title: "First portfolio",
+		description: null
 	}
 ];
 
-export default imagefolios;
+export default portfoliosData;
