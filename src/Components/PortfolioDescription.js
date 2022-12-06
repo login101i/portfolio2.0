@@ -14,7 +14,6 @@ function PortfolioDescription({
 	const data = portfoliosData.filter(
 		(portfolio) => portfolio.id === portfolioIndex
 	);
-	console.log("Data" + JSON.stringify(data));
 
 	return (
 		<div

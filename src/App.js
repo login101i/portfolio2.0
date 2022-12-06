@@ -7,20 +7,17 @@ import './App.scss';
 function App() {
 	const [navToggle, setNavToggle] = useState(false);
 
-	useEffect(() => {
-		setNavToggle(false);
-	});
-	const mainContentClick = () => {
+	const handleNavBar = () => {
 		setNavToggle(!navToggle);
 	};
-	const handleNavBar = () => {
+	const mainContentClick = () => {
 		setNavToggle(false);
 	};
 
 	return (
 		<div className="App">
-			<NavbarBurger onClick={mainContentClick} navToggle={navToggle} />
-			<div className={`main-content ${navToggle ? 'background-gray' : ''}`} onClick={handleNavBar}>
+			<NavbarBurger onClick={handleNavBar} navToggle={navToggle} />
+			<div className={`main-content ${navToggle ? 'background-gray' : ''}`} onClick={mainContentClick}>
 				<div className="content">
 					<Switch>
 						<Route path="/" exact>
