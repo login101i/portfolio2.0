@@ -12,7 +12,7 @@ const allCategories = [
 
 const PortfoliosPage = () => {
 	const [categories, setCategories] = useState(allCategories);
-	const [portoflioss, setPortfolios] = useState(portfoliosData);
+	const [portoflios, setPortfolios] = useState(portfoliosData);
 	const [showGrey, setShowGrey] = useState(false);
 
 	const filter = (category) => {
@@ -35,7 +35,7 @@ const PortfoliosPage = () => {
 				<div className="portfolios">
 					<Categories filter={filter} categories={categories} />
 					<FadeIn transitionDuration={1000}>
-						<MenuItems portfoliosData={portfoliosData} />
+						<MenuItems portfoliosData={portoflios} />
 					</FadeIn>
 				</div>
 			</div>

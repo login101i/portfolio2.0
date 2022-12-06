@@ -2,88 +2,103 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.hero-text {
-	color: white;
-	text-align: center;
-	font-size: 2.6rem;
-	span {
-		color: #037fff;
+	@media screen and (max-width: 1000px) {
+		margin-top: 60px;
 	}
-}
 
-.h-sub-text {
-	text-align: center;
-	margin-top: 35px;
-}
-
-.red {
-	font-size: 24px;
-	color: rgb(155, 6, 6);
-	text-align: center;
-	margin-top: 50px;
-}
-
-.icons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 1.5rem 0;
-	.icon-holder {
-		.icon {
-			font-size: 2.8rem;
-			color: #a4acc4;
-			transition: all 0.4s ease-in-out;
-		}
-		.gh:hover {
+	.hero-text {
+		color: white;
+		text-align: center;
+		font-size: 2.6rem;
+		span {
 			color: #037fff;
 		}
 	}
-}
 
-.packages {
-	display: flex;
-	margin-top: 50px;
-	width: 100%;
+	.h-sub-text {
+		text-align: center;
+		margin-top: 35px;
+	}
 
-	.frontend {
+	.icons {
 		display: flex;
-		flex-direction: column;
-		width: 50%;
-		.frontend-packages {
-			flex-wrap: wrap;
-			div::before {
-				content: " -   ";
-				margin-right: 5px;
-				font-size: 20px;
+		align-items: center;
+		justify-content: center;
+		padding: 1.5rem 0;
+		.icon-holder {
+			.icon {
+				font-size: 2.8rem;
+				color: #a4acc4;
+				transition: all 0.4s ease-in-out;
 			}
-			div {
-				margin: 5px;
-				font-size: 15px;
-				@media screen and (max-width: 1000px) {
-					font-size: 11px;
-				}
+			.gh:hover {
+				color: #037fff;
 			}
 		}
 	}
-	.backend {
+
+	.packages {
 		display: flex;
-		flex-direction: column;
-		width: 50%;
-		flex-direction: column;
-		.backend-packages {
-			flex-wrap: wrap;
-			div::before {
-				content: " -   ";
-				margin-right: 5px;
-				font-size: 20px;
+		margin-top: 40px;
+		margin-left: 20px;
+
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 1200px;
+
+		.frontend {
+			display: flex;
+			flex-direction: column;
+			position: relative;
+
+			.frontend-packages {
+				flex-wrap: wrap;
+				div::before {
+					content: " -   ";
+					margin-right: 5px;
+					font-size: 20px;
+					position: absolute;
+					left: -14px;
+				}
+				div {
+					display: flex;
+					align-items: center;
+					justify-content: flex-start;
+					font-size: 15px;
+					margin-bottom: 5px;
+					@media screen and (max-width: 1000px) {
+						font-size: 12px;
+					}
+				}
 			}
-			div {
-				margin: 5px;
-				font-size: 15px;
-				@media screen and (max-width: 1000px) {
-					font-size: 11px;
+		}
+		.backend {
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			margin-left: 20px;
+
+			.backend-packages {
+				flex-wrap: wrap;
+				margin-right: 20px;
+				div::before {
+					content: " -   ";
+					margin-right: 5px;
+					font-size: 20px;
+					position: absolute;
+					left: -14px;
+				}
+				div {
+					display: flex;
+					align-items: center;
+					justify-content: flex-start;
+					font-size: 15px;
+					margin-bottom: 5px;
+					@media screen and (max-width: 1000px) {
+						font-size: 11px;
+					}
 				}
 			}
 		}

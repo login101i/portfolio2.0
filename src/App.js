@@ -1,31 +1,23 @@
-import { useState } from "react";
-import { Switch, Route } from "react-router-dom";
-import {
-	HomePage,
-	AboutPage,
-	PortfoliosPage,
-	BlogsPage,
-	ContactPage,
-	BlogArticle1,
-	BlogArticle2
-} from "./Pages";
-import { NavbarBurger } from "./Components";
-import "./App.scss";
+import { useState } from 'react';
+import { Switch, Route } from 'react-router-dom';
+import { HomePage, AboutPage, PortfoliosPage, BlogsPage, ContactPage, BlogArticle1, BlogArticle2 } from './Pages';
+import { NavbarBurger } from './Components';
+import './App.scss';
 
 function App() {
 	const [navToggle, setNavToggle] = useState(false);
 
 	const mainContentClick = () => {
+		setNavToggle(!navToggle);
+	};
+	const handleNavBar = () => {
 		setNavToggle(false);
 	};
 
 	return (
 		<div className="App">
-			<NavbarBurger />
-			<div
-				onClick={mainContentClick}
-				className={`main-content ${navToggle ? "gray" : ""}`}
-			>
+			<NavbarBurger onClick={mainContentClick} navToggle={navToggle} />
+			<div className={`main-content ${navToggle ? 'background-gray' : ''}`} onClick={handleNavBar}>
 				<div className="content">
 					<Switch>
 						<Route path="/" exact>

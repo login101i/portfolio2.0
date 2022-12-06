@@ -31,14 +31,11 @@
 		background-repeat: repeat;
 		display: grid;
 		position: relative;
-		transition: all 0.4s ease-in-out;
 		.content {
 			padding-left: 50px;
-
 			@media screen and (max-width: 2200px) {
 				margin: 4rem 7rem;
 			}
-
 			@media screen and (max-width: 1400px) {
 				margin: 2rem 3rem;
 			}
@@ -47,6 +44,7 @@
 			}
 			@media screen and (max-width: 710px) {
 				margin: 2rem 2rem;
+				padding-left: 0px;
 			}
 		}
 		@media screen and (max-width: 1000px) {
@@ -54,11 +52,10 @@
 			width: 100%;
 		}
 	}
-	.gray {
-		@media screen and (max-width: 2000px) {
-			filter: grayscale(90%);
-			cursor: pointer;
-		}
+	.background-gray {
+		background-image: none;
+		background-color: rgb(95, 95, 95);
+		cursor: pointer;
 	}
 }
 

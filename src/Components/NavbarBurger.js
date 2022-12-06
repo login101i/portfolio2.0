@@ -1,24 +1,17 @@
-import { useState } from "react";
+import { NavBar } from '../Components/';
 
-import { NavBar } from "../Components/";
-
-function NavbarBurger() {
-	const [navToggle, setNavToggle] = useState(false);
-
-	const navClick = () => {
-		setNavToggle(!navToggle);
-	};
+function NavbarBurger({ onClick, navToggle }) {
 	return (
-		<>
-			<div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
+		<div onClick={onClick}>
+			<div className={`sidebar ${navToggle ? 'nav-toggle' : ''}`}>
 				<NavBar />
 			</div>
-			<div className="nav-btn" onClick={navClick}>
-				<div className="lines-1"></div>
-				<div className="lines-2"></div>
-				<div className="lines-3"></div>
+			<div className="nav-btn">
+				<div className="lines-1" />
+				<div className="lines-2" />
+				<div className="lines-3" />
 			</div>
-		</>
+		</div>
 	);
 }
 

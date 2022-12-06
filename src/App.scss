@@ -57,3 +57,26 @@ span {
 a {
 	text-decoration: none;
 }
+
+// Home Page
+@media screen and (max-width: 500px) {
+	.packages {
+		flex-direction: column;
+		margin-left: 20px;
+		width: 80%;
+		.frontend {
+			width: 100%;
+			h5 {
+				margin-bottom: 20px;
+			}
+		}
+		.backend {
+			margin-top: 30px;
+			margin-left: 0px !important;
+			width: 100%;
+			h5 {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
