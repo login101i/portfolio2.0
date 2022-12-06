@@ -1,55 +1,39 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import PortfolioDescription from "./PortfolioDescription";
+import PortfolioDescription from './PortfolioDescription';
 
 function MenuItems({ portfoliosData }) {
 	const [isDescription, setIsDescription] = useState(false);
-	const [portfolioIndex, setPortfolioIndex] = useState("");
+	const [portfolioIndex, setPortfolioIndex] = useState('');
 
-	const handleDescription = (index) => {
+	const handleDescription = index => {
 		setIsDescription(!isDescription);
 		setPortfolioIndex(index);
 	};
 
 	return (
 		<div className="portfolios">
-			{portfoliosData.map((portfolio, index) => (
-				<div
-					className="portfolio"
-					key={portfolio.id}
-					style={{ margin: "10px" }}
-				>
+			{portfoliosData.map((portfolio, index) =>
+				<div className="portfolio" key={portfolio.id} style={{ margin: '10px' }}>
 					<div className="image-data">
-						<img
-							src={portfolio.image}
-							alt=""
-							style={{ objectFit: "contain" }}
-							className="image"
-						/>
+						<img src={portfolio.image} alt="" style={{ objectFit: 'contain' }} className="image" />
 						<ul className="hover-items">
-							{portfolio.description && (
+							{portfolio.description &&
 								<li onClick={() => handleDescription(index)}>
 									<a>Show descripion</a>
-								</li>
-							)}
-							{portfolio.link2 && (
+								</li>}
+							{portfolio.link2 &&
 								<li>
-									<a
-										href={portfolio.link2}
-										style={{ textAlign: "center" }}
-										target="_blank"
-									>
+									<a href={portfolio.link2} style={{ textAlign: 'center' }} target="_blank">
 										Source on github
 									</a>
-								</li>
-							)}
-							{portfolio.link1 && (
+								</li>}
+							{portfolio.link1 &&
 								<li>
 									<a href={portfolio.link1} target="_blank">
 										Visit online
 									</a>
-								</li>
-							)}
+								</li>}
 						</ul>
 					</div>
 
@@ -60,7 +44,7 @@ function MenuItems({ portfoliosData }) {
 						portfolioIndex={portfolioIndex}
 					/>
 				</div>
-			))}
+			)}
 		</div>
 	);
 }
