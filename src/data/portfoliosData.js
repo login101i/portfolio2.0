@@ -48,7 +48,7 @@ const portfoliosData = [
 	{
 		id: 3,
 		category: "E-commerce",
-		link1: "https://sukierniasowa.herokuapp.com",
+		link1: "",
 		link2: "https://github.com/login101i/MERN-2-cukierniaSowa",
 		image: image1,
 		title: "Cukiernia Sowa Clone",
@@ -57,7 +57,7 @@ const portfoliosData = [
 	{
 		id: 4,
 		category: "E-commerce",
-		link1: "https://dstreet.herokuapp.com",
+		link1: "",
 		link2: "https://github.com/login101i/MERN-1-dstreet",
 		image: image2,
 		title: "Dstreet, e-commerce site Clone",
@@ -75,7 +75,7 @@ const portfoliosData = [
 	{
 		id: 6,
 		category: "Java Script",
-		link1: "https://myvanilla-js-shop.netlify.app",
+		link1: "",
 		link2: "https://github.com/login101i/react-beach-resort",
 		image: image4,
 		title: "Hotel Resort Project",
@@ -103,7 +103,7 @@ const portfoliosData = [
 	{
 		id: 9,
 		category: "Java Script",
-		link1: "akan-game.netlify.app",
+		link1: "",
 		link2: "https://github.com/login101i/akan-game",
 		image: image7,
 		title: "Akan quiz",
@@ -112,7 +112,7 @@ const portfoliosData = [
 	{
 		id: 10,
 		category: "ReactJS",
-		link1: "https://mkrus-iphone-store.netlify.app",
+		link1: "",
 		link2: "https://github.com/login101i/Iphone-Store",
 		image: image8,
 		title: "Iphone store",
@@ -121,7 +121,7 @@ const portfoliosData = [
 	{
 		id: 11,
 		category: "Rest API",
-		link1: "https://netflix-clone-mkrus.netlify.app",
+		link1: "",
 		link2: "https://github.com/login101i/netflix-clone",
 		image: image9,
 		title: "Netflix Clone",
@@ -139,7 +139,7 @@ const portfoliosData = [
 	{
 		id: 13,
 		category: "ReactJS",
-		link1: "https://baule-store.vercel.app",
+		link1: "",
 		link2: "https://github.com/login101i/Baule-store",
 		image: image11,
 		title: "Baule Store",
@@ -148,7 +148,7 @@ const portfoliosData = [
 	{
 		id: 14,
 		category: "MERN STACK",
-		link1: "https://mern-project.netlify.app",
+		link1: "",
 		link2: "https://github.com/login101i/Baule-store",
 		image: image12,
 		title: "Beautiful Places MERN PROJECT",
@@ -157,7 +157,7 @@ const portfoliosData = [
 	{
 		id: 15,
 		category: "Rest API",
-		link1: "https://mkrusweather.netlify.app",
+		link1: "",
 		link2: "https://github.com/login101i/weather-app-react",
 		image: image13,
 		title: "Weather app",
@@ -166,7 +166,7 @@ const portfoliosData = [
 	{
 		id: 16,
 		category: "HTML/CSS/JS",
-		link2: "https://portfolio-mc-krusold.netlify.app",
+		link2: "",
 		link1: "https://github.com/login101i/portfolio",
 		image: image14,
 		title: "First portfolio",
