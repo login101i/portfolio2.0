@@ -37,7 +37,7 @@
 		}
 	}
 
-	.packages {
+	.fields {
 		display: flex;
 		margin-top: 40px;
 		margin-left: 20px;
@@ -47,13 +47,14 @@
 		align-items: center;
 		justify-content: space-between;
 		max-width: 1200px;
+		margin-bottom: 100px;
 
 		.frontend {
 			display: flex;
 			flex-direction: column;
 			position: relative;
 
-			.frontend-packages {
+			.frontend-fields {
 				flex-wrap: wrap;
 				div::before {
 					content: " -   ";
@@ -80,7 +81,7 @@
 			position: relative;
 			margin-left: 20px;
 
-			.backend-packages {
+			.backend-fields {
 				flex-wrap: wrap;
 				margin-right: 20px;
 				div::before {

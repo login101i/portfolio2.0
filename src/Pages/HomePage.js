@@ -1,9 +1,11 @@
 import React from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AboutPage from './AboutPage';
 
 function HomePage() {
 	return (
+		<>
 		<div className="HomePage">
 			<h1 className="hero-text">Hi, welcome on my page!</h1>
 			<p className="h-sub-text">
@@ -16,11 +18,11 @@ function HomePage() {
 				</a>
 			</div>
 			<h5>I have dealt so far with :</h5>
-			<div className="packages">
+			<div className="fields">
 				<div className="frontend">
 					<h5>Frontend :</h5>
 
-					<div className="frontend-packages">
+					<div className="frontend-fields">
 						<div>Single page applications with React JS</div>
 						<div>Making good architecture decisions</div>
 						<div>Creating app with Expo</div>
@@ -48,7 +50,7 @@ function HomePage() {
 				<div className="backend">
 					<h5>Backend :</h5>
 
-					<div className="backend-packages">
+					<div className="backend-fields">
 						<div>Express Framework</div>
 						<div>Object Data Modeling Library for MongoDB, Mongoose JS</div>
 						<div>User Roles & Permissions</div>
@@ -74,7 +76,10 @@ function HomePage() {
 					</div>
 				</div>
 			</div>
+			<AboutPage/>
+
 		</div>
+		</>
 	);
 }
 

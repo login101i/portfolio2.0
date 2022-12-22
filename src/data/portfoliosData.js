@@ -1,33 +1,24 @@
-import image1 from '../img/portImages/cukiernia_sowa.png';
-import image2 from '../img/portImages/dstreet.png';
-import image3 from '../img/portImages/movieDB.jpg';
-import image4 from '../img/portImages/furniture-shop.png';
-import image5 from '../img/portImages/travelly.jpg';
-import image6 from '../img/portImages/ProGrupa_image.jpg';
-import image7 from '../img/portImages/akan.png';
-import image8 from '../img/portImages/7iphone-store.jpg';
-import image9 from '../img/portImages/netflix.jpg';
-import image10 from '../img/portImages/Rn_clothes_app.jpg';
-import image11 from '../img/portImages/BauleStore.png';
-import image12 from '../img/portImages/mern-project-podroze.png';
-import image13 from '../img/portImages/weather.png';
-import image14 from '../img/portImages/first_portfolio.png';
-import image15 from '../img/portImages/akansite.png';
-import image16 from '../img/portImages/allegroWeb.png';
-import image17 from '../img/portImages/booking_com.png';
+import image1 from '../img/portImages/cukiernia_sowa_11zon.png';
+import image2 from '../img/portImages/dstreet_11zon.png';
+import image3 from '../img/portImages/movieDB_11zon.jpg';
+import image4 from '../img/portImages/furniture-shop_11zon.png';
+import image5 from '../img/portImages/travelly_11zon.jpg';
+import image6 from '../img/portImages/ProGrupa_image_11zon.jpg';
+import image7 from '../img/portImages/akan_11zon.png';
+import image8 from '../img/portImages/7iphone-store_11zon.jpg';
+import image9 from '../img/portImages/netflix_11zon.jpg';
+import image10 from '../img/portImages/Rn_clothes_app_11zon.jpg';
+import image11 from '../img/portImages/BauleStore_11zon.png';
+import image12 from '../img/portImages/mern-project-podroze_11zon.png';
+import image13 from '../img/portImages/weather_11zon.png';
+import image14 from '../img/portImages/first_portfolio_11zon.png';
+import image15 from '../img/portImages/akansite_11zon.png';
+import image16 from '../img/portImages/allegroWeb_11zon.png';
+import image17 from '../img/portImages/booking_com_11zon.png';
 
 const portfoliosData = [
 	{
 		id: 0,
-		category: 'Rest API',
-		link1: 'https://bookingcmkrus.herokuapp.com',
-		link2: 'https://github.com/login101i/Booking.com_WEB',
-		image: image17,
-		title: 'Booking.com Clone ',
-		description: { header: 'Opis w trakcie tworzenia.. .' }
-	},
-	{
-		id: 1,
 		category: 'E-commerce',
 		link1: 'https://allegroweb.herokuapp.com',
 		link2: 'https://github.com/login101i/allegro_desktop',
@@ -35,6 +26,16 @@ const portfoliosData = [
 		title: 'www.allegro.pl Clone',
 		description: null
 	},
+	{
+		id: 1,
+		category: 'Rest API',
+		link1: 'https://bookingcmkrus.herokuapp.com',
+		link2: 'https://github.com/login101i/Booking.com_WEB',
+		image: image17,
+		title: 'Booking.com Clone ',
+		description: { header: 'Opis w trakcie tworzenia.. .' }
+	},
+
 	{
 		id: 2,
 		category: 'Wordpress',

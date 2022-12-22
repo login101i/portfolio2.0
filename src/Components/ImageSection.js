@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function ImageSection() {
 	return (
@@ -12,8 +12,7 @@ function ImageSection() {
 				</h4>
 
 				<p className="about-text">
-					Below a little information about me. Below you will find progress bars
-					with my skills. Check them out :)
+					Below a little information about me. Below you will find progress bars with my skills. Check them out :)
 				</p>
 				<div className="about-details">
 					<div className="left-section">
@@ -31,10 +30,10 @@ function ImageSection() {
 						<p>: Inowrocław Poland</p>
 					</div>
 				</div>
-				<button className="btn">
+				{/* <button className="btn">
 					{" "}
 					<a target="_blank">Download CV</a>{" "}
-				</button>
+				</button> */}
 			</div>
 		</div>
 	);
