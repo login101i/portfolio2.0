@@ -3,7 +3,7 @@ import image2 from '../img/portImages/dstreet.png';
 import image3 from '../img/portImages/movieDB.jpg';
 import image4 from '../img/portImages/furniture-shop.png';
 import image5 from '../img/portImages/travelly.jpg';
-import image6 from '../img/portImages/elena-joy.jpg';
+import image6 from '../img/portImages/ProGrupa_image.jpg';
 import image7 from '../img/portImages/akan.png';
 import image8 from '../img/portImages/7iphone-store.jpg';
 import image9 from '../img/portImages/netflix.jpg';
@@ -44,6 +44,15 @@ const portfoliosData = [
 		title: 'www.akan.com.pl',
 		description: null
 	},
+	{
+		id: 6,
+		category: 'Java Script',
+		link1: 'https://progrupa.netlify.app/',
+		link2: 'https://github.com/login101i/ProGrupa_task',
+		image: image6,
+		title: 'Login Form width validation and serviseWorker',
+		description: null
+	},
 
 	{
 		id: 3,
@@ -63,6 +72,7 @@ const portfoliosData = [
 		title: 'Dstreet, e-commerce site Clone',
 		description: null
 	},
+
 	{
 		id: 5,
 		category: 'Rest API',
@@ -72,6 +82,7 @@ const portfoliosData = [
 		title: 'Movie DataBase',
 		description: null
 	},
+
 	// {
 	// 	id: 6,
 	// 	category: 'Java Script',
