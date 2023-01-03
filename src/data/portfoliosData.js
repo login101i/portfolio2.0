@@ -15,6 +15,8 @@ import image14 from '../img/portImages/first_portfolio_11zon.png';
 import image15 from '../img/portImages/akansite_11zon.png';
 import image16 from '../img/portImages/allegroWeb_11zon.png';
 import image17 from '../img/portImages/booking_com_11zon.png';
+import image18 from '../img/portImages/allegro_react_native.png';
+import image19 from '../img/portImages/react-native-logo.jpg';
 
 const portfoliosData = [
 	{
@@ -25,6 +27,14 @@ const portfoliosData = [
 		image: image16,
 		title: 'www.allegro.pl Clone',
 		description: null
+	},
+	{
+		id: 15,
+		category: 'React Native',
+		link2: 'https://github.com/login101i/allegro-react-native',
+		image: image18,
+		title: 'Allegro React Native',
+		description: { header: 'Opis w trakcie tworzenia.. .' }
 	},
 	{
 		id: 1,
@@ -46,8 +56,19 @@ const portfoliosData = [
 		description: null
 	},
 	{
+		id: 14,
+		category: 'MERN STACK',
+		category: 'React Native',
+
+		link1: '',
+		link2: 'https://github.com/login101i/MyPlaces-ReactNative',
+		image: image12,
+		title: 'Beautiful Places MERN PROJECT',
+		description: null
+	},
+	{
 		id: 6,
-		category: 'Java Script',
+		category: 'HTML/CSS/JS',
 		link1: 'https://progrupa.netlify.app/',
 		link2: 'https://github.com/login101i/ProGrupa_task',
 		image: image6,
@@ -122,10 +143,10 @@ const portfoliosData = [
 		description: null
 	},
 	{
-		id: 16,
+		id: 17,
 		category: 'HTML/CSS/JS',
 		link2: 'https://github.com/login101i/portfolio',
-		link1: 'https://portfolio-mc-krusold.netlify.app/projects/',
+		link1: 'https://portfolio-mc-krusold.netlify.app/index.html',
 		image: image14,
 		title: 'First portfolio',
 		description: null
@@ -166,22 +187,32 @@ const portfoliosData = [
 		title: 'Baule Store',
 		description: null
 	},
+
 	{
-		id: 14,
-		category: 'MERN STACK',
-		link1: '',
-		link2: 'https://github.com/login101i/Baule-store',
-		image: image12,
-		title: 'Beautiful Places MERN PROJECT',
-		description: null
-	},
-	{
-		id: 15,
+		id: 16,
 		category: 'Rest API',
 		link1: '',
 		link2: 'https://github.com/login101i/weather-app-react',
 		image: image13,
 		title: 'Weather app',
+		description: null
+	},
+	{
+		id: 18,
+		category: 'React Native',
+		link1: '',
+		link2: 'https://github.com/login101i/React_Native_HelpMeApp',
+		image: image19,
+		title: 'React Native Help Me App',
+		description: null
+	},
+	{
+		id: 19,
+		category: 'React Native',
+		link1: '',
+		link2: 'https://github.com/login101i/React_Native_HelpMeApp',
+		image: image19,
+		title: 'React Native Links',
 		description: null
 	}
 ];
